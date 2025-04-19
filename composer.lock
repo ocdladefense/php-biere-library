@@ -1,0 +1,131 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "5d684130871ae085e249dd35599974fd",
+    "packages": [
+        {
+            "name": "ocdladefense/lib-html",
+            "version": "dev-development",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ocdladefense/lib-html.git",
+                "reference": "43d7c6bee95336b1aa8357976bba68eef2dde681"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ocdladefense/lib-html/zipball/43d7c6bee95336b1aa8357976bba68eef2dde681",
+                "reference": "43d7c6bee95336b1aa8357976bba68eef2dde681",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/Html.php",
+                    "src/Form.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Library for representing and rendering HTML elements.",
+            "support": {
+                "issues": "https://github.com/ocdladefense/lib-html/issues",
+                "source": "https://github.com/ocdladefense/lib-html/tree/development"
+            },
+            "time": "2024-04-29T02:38:27+00:00"
+        },
+        {
+            "name": "ocdladefense/lib-http",
+            "version": "dev-development",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ocdladefense/lib-http.git",
+                "reference": "3436fc61071a9be9d1a66ced6538f1c74c752938"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ocdladefense/lib-http/zipball/3436fc61071a9be9d1a66ced6538f1c74c752938",
+                "reference": "3436fc61071a9be9d1a66ced6538f1c74c752938",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/HttpConstants.php",
+                    "src/HttpStatus.php"
+                ],
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jose Bernal",
+                    "email": "jbernal.web.dev@gmail.com"
+                }
+            ],
+            "description": "PHP wrapper classes for curl functions.",
+            "support": {
+                "issues": "https://github.com/ocdladefense/lib-http/issues",
+                "source": "https://github.com/ocdladefense/lib-http/tree/development"
+            },
+            "time": "2023-11-04T06:51:49+00:00"
+        },
+        {
+            "name": "ocdladefense/lib-routing",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ocdladefense/lib-routing.git",
+                "reference": "250e1743767511a38df3622e878471bb301eb87e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ocdladefense/lib-routing/zipball/250e1743767511a38df3622e878471bb301eb87e",
+                "reference": "250e1743767511a38df3622e878471bb301eb87e",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jose Bernal",
+                    "email": "jbernal.web.dev@gmail.com"
+                }
+            ],
+            "description": "Facilitate routing between HTTP Requests and native server functions.",
+            "support": {
+                "issues": "https://github.com/ocdladefense/lib-routing/issues",
+                "source": "https://github.com/ocdladefense/lib-routing/tree/main"
+            },
+            "time": "2023-10-31T04:20:23+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "ocdladefense/lib-http": 20,
+        "ocdladefense/lib-routing": 20,
+        "ocdladefense/lib-html": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

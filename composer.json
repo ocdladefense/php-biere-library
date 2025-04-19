@@ -1,0 +1,42 @@
+{
+    "name": "ocdladefense/intern-starter",
+    "description": "Test repo for connecting to the Salesforce REST API.",
+    "type": "wordpress-theme",
+    "license": "MIT",
+    "minimum-stability":"dev",
+    "authors": [
+        {
+            "name": "Christian Collis",
+            "email": "collisc@my.lanecc.edu"
+        },
+        {
+            "name": "William Todd",
+            "email": "toddw@my.lanecc.edu"
+        },
+        {
+            "name": "José Bernal",
+            "email": "jbernal.web.dev@gmail.com"
+        }
+    ],
+    "require": {
+        "ocdladefense/lib-http":"dev-development",
+        "ocdladefense/lib-routing": "dev-main",
+        "ocdladefense/lib-html": "dev-development"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        },
+        "preferred-install": {
+            "ocdladefense/*": "source"
+        }
+    },
+    "scripts": {
+        "pre-autoload-dump": "Google\\Task\\Composer::cleanup"
+    },
+    "extra": {
+        "google/apiclient-services": [
+            "Calendar"
+        ]
+    }
+}
