@@ -1,5 +1,4 @@
 # Ignore files with credentials.
-/config.php
 .htaccess
 /vendor
 
@@ -9,13 +8,9 @@
 /scratch_pad.js
 
 .env
-
+.DS_Store
 /robots.txt
 
-
-/sites/*
-!/sites/sites-example.php
-!/sites/default
 
 /themes/*
 !/themes/.gitkeep
@@ -24,8 +19,6 @@
 /modules/*
 !/modules/.gitkeep
 
-/dev_modules/node-books-online/
-/WeatherApp
 
 
 dev_modules/node-lib-http/
