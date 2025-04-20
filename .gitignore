@@ -2,6 +2,7 @@
 .htaccess
 /vendor
 
+/sites/thebierelibrary.com/config.php
 
 /node_modules
 
