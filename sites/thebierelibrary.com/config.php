@@ -24,7 +24,7 @@ $ga_debug = false;
 $online_ordering_enabled = false;
 
 define("CALENDAR_API_ENDPOINT","https://appdev.ocdla.org/calendar/%s/events");
-define()
+
 
 
 function isGaDebug() {
