@@ -1,5 +1,5 @@
-# Intern-starter
-Demonstrate PHP, HTTP request/response, web server routing and JavaScript competency.  Uses PHP and JavaScript package management facilities via Composer and NPM.
+# Php-biere-library
+This is a PHP installation for The Biere Library restaurant's website.  The Biere Library is a Belgian restaurant located in Corvallis, Oregon.
 
 ## Dependencies
 * Apache >= 2.4
@@ -8,16 +8,24 @@ Demonstrate PHP, HTTP request/response, web server routing and JavaScript compet
 ** For installation on Windows see [the documentation](https://getcomposer.org/doc/00-intro.md#installation-windows).
 
 ## Installation
-Intern-starter should be installed in a working sub-directory of an Apache2 web server.
+Php-biere-library should be installed in a working sub-directory of an Apache2 web server.
+Additionally, the <code>sites/</code> and <code>themes/</code> directories should be populated.
 
 ```bash
-git clone https://github.com/ocdladefense/intern-starter.git
-cd $APACHE_DOCUMENTS_DIR/intern-starter
+cd my-document-root
+git clone https://github.com/ocdladefense/php-biere-library.git
+git submodule update --init --recursive
+cp sites/example-sites.php sites/sites.php
 composer update
 npm update
-cp sites/example-sites.php sites/sites.php
+cp .htaccess-example .htaccess
 ```
-You should then be able to open a web browser and navigate to http://localhost/intern-starter.
+
+### .htaccess
+The repository includes an example .htaccess file, <code>.htaccess-example</code>.
+
+### Validating the installation
+After performing the above installation steps, you should then be able to open a web browser and navigate to http://localhost/my-document-root.
 
 ## More information
 For more information see the [server outline](https://docs.google.com/drawings/d/1eHy1dVjZhxTji9msrA00NKTfgfw7kxzlPjal8Utf40M/edit?usp=sharing)
