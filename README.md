@@ -21,6 +21,13 @@ npm update
 cp .htaccess-example .htaccess
 ```
 
+### Theme installation
+The <code>[biere-library](https://github.com/ocdladefense/theme-biere-library)</code> theme should be installed in the <code>themes/</code> directory.
+```bash
+cd themes/
+git clone git@github.com:ocdladefense/theme-biere-library.git
+```
+
 ### .htaccess
 The repository includes an example .htaccess file, <code>.htaccess-example</code>.
 
