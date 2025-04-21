@@ -9,7 +9,7 @@ This is a PHP installation for The Biere Library restaurant's website.  The Bier
 
 ## Installation
 Php-biere-library should be installed in a working sub-directory of an Apache2 web server.
-Additionally, the <code>sites/</code> and <code>themes/</code> directories should be populated.
+Additionally, the <code>sites/</code> and <code>themes/</code> directories should be populated.  
 
 ```bash
 cd my-document-root
