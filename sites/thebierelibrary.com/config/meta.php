@@ -20,6 +20,20 @@ $meta = array(
             array("property" => "og:image", "content" => "https://$host/themes/biere-library/assets/images/apple-preview/meeting-of-libraries.png")
         )
     ),
+    "event/2025-10-24/the-biere-library-five-year-anniversary-celebration" => array(
+        "title" => "The Bière Library Five Year Anniversary Celebration",
+        "meta" => array(
+            array("property" => "og:title", "content" => "The Bière Library Five Year Anniversary Celebration"),
+            array("property" => "og:image", "content" => "https://$host/themes/biere-library/assets/images/apple-preview/five-year-anniversary.png")
+        )
+    ),
+    "event/2025-12-31/roaring-20s-new-year-eve-party" => array(
+        "title" => "The Bière Library's Roaring '20s New Year's Eve Party",
+        "meta" => array(
+            array("property" => "og:title", "content" => "The Bière Library's Roaring '20s New Year's Eve Party"),
+            array("property" => "og:image", "content" => "https://$host/themes/biere-library/assets/images/apple-preview/roaring-twenties.png")
+        )
+    ),
     "food" => array(
         "title" => "Lunch & Dinner at The Bière Library"  
     ),
@@ -39,6 +53,13 @@ $meta = array(
             array("property" => "og:image", "content" => "https://$host/themes/biere-library/assets/images/apple-preview/home.png")
         )
     ),
+    "event/2025-09-11/flight-night" => array(
+        "title" => "Waldbusser Ciderworks Launch Party, Flight Night & Food Pairing",
+        "meta" => array(
+            array("property" => "og:title", "content" => "Waldbusser Ciderworks Launch Party, Flight Night & Food Pairing"),
+            array("property" => "og:image", "content" => "https://$host/themes/biere-library/assets/images/apple-preview/home.png")
+        )
+    ),  
     "careers" => array(
         "title" => "Jobs at the Bière Library",
         "meta" => array(

@@ -7,7 +7,7 @@ $hours = array(
     "Tuesday" => array(
         "status" => "closed",
         "hours" => "Closed",
-        "message" => "Closed today,<br />but join us tomorrow from 12pm - 10pm.",
+        "message" => "Closed today,<br />but join us tomorrow from 5pm - midnight",
     ),  
     "Wednesday" => array(
         "status" => "open",

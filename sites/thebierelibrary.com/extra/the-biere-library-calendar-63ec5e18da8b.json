@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "the-biere-library-calendar",
+  "private_key_id": "63ec5e18da8b9082f479d69a6d2a2bf5c8eaeabd",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDjpEcgzcBsEoBK\nEGz5avC0huK/WQZgNOHbGOupS4zJ8eLfpbXr6bzajEhAJ/9xPEw93MAzbMcjwwHP\nNOrNajeEqcd8dEE60KYRYywNAyLfCOBrLmXsSZnFc1aiQMT/ezee4YL1C4Id0wsW\n5MbhTxxv7cF+dtuBqWhqNmWmWjkCeoiazc16Kv3++FZL6goblfrBBJbwOGKNlfep\n9lcwCNzMQ0lma0ZRjHKwWwhevOQCIOXuiDTIiDjU2/+uGoX4pnnueV8Uy9dMPO/4\nrGBcmmZ4nM1MpiB0M1joC7RT6ZB0X0S6l90UT89z8mGnvyBaWZk1gvdw81LUEAB+\nh0NCw+zDAgMBAAECggEAS+m5qo/SrneQ/qHxpU9rS9h7fzIR9T1NYEI0PHWsUp/u\nd4SMYUrGJt+HLJXqEnn4Nt0J31xUIHHkhZPxBWV5dC0mEDO4mQOBjeTTiNdV5qjQ\nJg4IAT8eH4FyD5On3kbZ6orroAohbw608QKD7Bj0s8LGtwSt+NRktJ7FUS9fOZrA\nNS6k8MJSyvUk5L+YiO778RDBznPwiPWRO2av5uqb/AosBrnGGwe/T1jAA1oUGLDt\nL00VhxsRE4sVWmeiGI2UO77uJ2vgHEn1aBs57VsVc+MdIgk3aONGkslcDk1pEb8D\nm+CB2q6aI5kfSahiiCHZcMZ12XRi/OWHlMTJM4e16QKBgQDz5e+fifsctyf7mzOn\nUrYL6avFenCpc+IGatH9QHoPKmY02hAqv/i8vpLJy+BkrxB6x4MtkDP/LL0cWn7E\nUcdF9f8CCb5v+CQ6OcKOJUnDG5U4Homh6ckf3GCZaF4EQfWGMpSq+W8hmh0J5SCU\nZosDXgACUHAAjU4HrEu3CPDbZwKBgQDu79jxKdyOEGXSNH79NcsJlSs4AoiKS08E\nGxmtPE+TF4xHgOQBkRw0disRTK8sHS50H1IYANu5wsdjjJ5W22k5+dK4VafdPD80\nTGHlg2H8+Pc3+ThwCb6+FmkW3wSRX1tnFz6fLfQmLpn01HyBPXgY68n1NcI00z6B\nR+Eej0ymRQKBgQDQNWuxi242Xlkgnqai4aYNV2bPB65jykya49ft1XwdtDlaRwnk\nJMvn/Nx8rrIZ4aU021stq1voK74pFUwAtjtiixUuHTlYhsIOfr6K8GQezk49gTxH\nX7fVniFM9N7FzbUW4dkueA+Z5OGDT/nXFg74SefCEf77SaXiQQDF+Tj8YwKBgEWl\ndgf92sMyNmvKT4XBS1iUuY9O9bvR7ctVlutvHAbVI1eoU029nYoRM8aMIrdqHiNN\nCeHjRijkhLgYwgKxW//BOVHv7clICWhWJ2b+H+7cJzuSkofd31KLN8Cp6yvwrrTj\nCqbdf0At70R1N4F4iGxDNpAaRmydcqe+avk8bew9AoGBAJKWiRA+qj6KNBxSBsre\nggjfhiVN6P8B3xNiFiRi5311BOH3ZHLC3tI/cBgtIxcG/c58/7r3f568I3B9ilzN\nx68avbcyqp1jQni19h+bnWM+tXMBJmsvVAWAgnLmX1xxfijxyAyxRb9AAiq12TEp\nVo8zcILrtKFgookNbVaSxcMB\n-----END PRIVATE KEY-----\n",
+  "client_email": "calendar-events@the-biere-library-calendar.iam.gserviceaccount.com",
+  "client_id": "114078682245640395830",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/calendar-events%40the-biere-library-calendar.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

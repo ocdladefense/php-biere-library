@@ -4,8 +4,6 @@
 
 global $config, $meta, $eventDb, $events, $hours, $holidays, $ga_property_id, $ga_debug;
 
-include("secret/secrets.php");
-
 // We aren't currently using the draft list.
 // include("config/draft-list.php");
 
@@ -64,8 +62,11 @@ function config($name, $default = null) {
 
 
 function getSitePrimaryCalendarId() {
+        $biereLibraryCalendarId = "c_07c922398faccc5695d450d685cccf3a2463815c4ea56ad99d709e741e9e1363";
+        
+        $josesLibraryCalendarId = "54b9c815f343ae63a171ff6afe361206457cf4c59e97a22b53165c981f98f0ab";
 
-        return BIERE_LIBRARY_CALENDAR_ID;
+        return $biereLibraryCalendarId;
 }
 
 

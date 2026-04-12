@@ -2,6 +2,11 @@
 
 
 $holidays = array(
+    "4/26/2025" => array(
+        "status" => "closed",
+        "hours" => "Closed Today",
+        "message" => "We are closed today...<br />but will reopen tomorrow<br />12pm - 9pm"
+    ),
     "11/28/2024" => array(
         "status" => "closed",
         "hours" => "Closed",
@@ -32,27 +37,27 @@ $holidays = array(
         "hours" => "Open",
         "message" => "We have revised hours today<br />from 4pm - 10pm"
     ),
-    "11/23/2023" => array(
+    "11/28/2025" => array(
         "status" => "closed",
         "hours" => "Closed",
         "message" => "Resting after Thanksgiving...<br />we reopen tomorrow<br />12pm - 10pm"
     ),
-    "11/24/2023" => array(
+    "11/27/2025" => array(
         "status" => "closed",
         "hours" => "Closed",
-        "message" => "Resting after Thanksgiving...<br />we reopen tomorrow<br />12pm - 10pm"
+        "message" => "Closed for Thanksgiving...<br />we reopen Saturday, 11/29<br />12pm - 10pm"
     ),
-    "12/24/2024" => array(
-        "status" => "closed",
-        "hours" => "Closed",
-        "message" => "Closed for the Christmas holiday...<br /> we reopen December 27"
-    ),
-    "12/25/2024" => array(
+    "12/24/2025" => array(
         "status" => "closed",
         "hours" => "Closed",
         "message" => "Closed for the Christmas holiday...<br /> we reopen December 27"
     ),
-    "12/26/2024" => array(
+    "12/25/2025" => array(
+        "status" => "closed",
+        "hours" => "Closed",
+        "message" => "Closed for the Christmas holiday...<br /> we reopen December 27"
+    ),
+    "12/26/2025" => array(
         "status" => "closed",
         "hours" => "Closed",
         "message" => "Closed for the Christmas holiday...<br /> we reopen December 27"
@@ -62,15 +67,15 @@ $holidays = array(
         "hours" => "Closed",
         "message" => "We closed early today (Friday)...<br />but join us tomorrow<br />12pm - 10pm"
     ),
-    "12/31/2024" => array(
+    "12/31/2025" => array(
         "status" => "open",
         "hours" => "Open",
         "message" => "Open 5pm - midnight for New Year's Eve!"
     ),
-    "1/1/2025" => array(
+    "1/1/2026" => array(
         "status" => "closed",
         "hours" => "Closed",
-        "message" => "Closed today for the holiday...<br />we reopen Thursday<br />12pm - 10pm"
+        "message" => "Closed today for the holiday...<br />we reopen Friday<br />12pm - 10pm"
     ),
     "1/13/2024" => array(
         "status" => "closed",
