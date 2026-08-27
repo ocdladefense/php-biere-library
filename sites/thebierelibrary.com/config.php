@@ -21,7 +21,8 @@ $ga_property_id = "G-1BNTM584DQ";
 $ga_debug = false;
 $online_ordering_enabled = false;
 
-define("CALENDAR_API_ENDPOINT","https://appdev.ocdla.org/calendar/%s/events");
+// https://ocdla.app/calendar/c_07c922398faccc5695d450d685cccf3a2463815c4ea56ad99d709e741e9e1363/events
+define("CALENDAR_API_ENDPOINT","https://ocdla.app/calendar/%s/events");
 
 
 
