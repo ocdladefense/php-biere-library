@@ -15,7 +15,7 @@ function getEvents($calId, $params = array())
 {
     //need a number variable as a string from the onclick event to capture
     //desired stature for parsing
-    $url = new Url("https://appdev.ocdla.org/calendar/${calId}/events");
+    $url = new Url(CALENDAR_API_ENDPOINT);
     if(count($params) > 0) {
         $url->setParams($params);
     }
@@ -130,7 +130,7 @@ function getFeaturedEvents() {
   
 
     $list = new EventList($body);
-    $filtered = $list->filterOut("summary","happy hour");
+    $filtered = $list->filterOut("location","happy hour");
     $filtered = $filtered->filterOut("location","Unpublished");
 
     return $filtered->getEvents($maxResults);
@@ -156,7 +156,7 @@ function getUpcomingEvents() {
   
 
     $list = new EventList($body);
-    $filtered = $list->filterOut("summary","happy hour");
+    $filtered = $list->filterOut("location","happy hour");
 
     return $filtered->getEvents($maxResults);
 }
@@ -182,7 +182,7 @@ function getUpcomingEventsHomepage() {
   
 
     $list = new EventList($body);
-    $filtered = $list->filterOut("summary","happy hour");
+    $filtered = $list->filterOut("location","happy hour");
     $filtered = $filtered->filterOut("location","Featured");
 
     return $filtered->getEvents(3);

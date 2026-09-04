@@ -38,6 +38,7 @@ $out = <<<"EOT"
     <a class="bl-button" href="/drink">Drinks</a>
     <a class="bl-button" href="/events">Events</a>
     <a class="bl-button" href="/about">About</a>
+    <a class="bl-button" href="https://order.toasttab.com/online/the-biere-library">Order Online</a>
 </div>
 <div class="desktop all-ages-callout">
     All ages welcome!
