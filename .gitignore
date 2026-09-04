@@ -5,6 +5,9 @@
 
 /node_modules
 
+
+/sites/thebierelibrary.com/extra/the-biere-library-calendar-63ec5e18da8b.json
+
 /scratch_pad.js
 .env
 .DS_Store
